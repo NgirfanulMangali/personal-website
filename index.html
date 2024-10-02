@@ -3,51 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="output.css" />
     <title>My Career Profile</title>
   </head>
-  <body>
-    <header>
-      <div><img src="icon/logo 1.png" alt="logo" />Personal</div>
-      <div>AboutMe</div>
-      <div>Skills</div>
-      <div>Project</div>
-      <div>ContactMe</div>
+  <body class="w-1440 m-0 p-0 box-border ">
+    <header class="flex justify-around items-center h-24 font-sora font-semibold">
       <div>
-        <button>Resume <img src="icon/download.png" alt="download" /></button>
+        <!--logo-->
+        <a href="#" class="flex">
+          <img src="icon/logo 1.png" alt="logo" />
+          <p class="mt-2 ml-1">Personal</p></a
+        >
       </div>
+      <div class="">
+        <a href="#" class="mr-8">AboutMe</a><a href="#" class="mr-8">Skills</a
+        ><a href="#" class="mr-8">Project</a><a href="#">ContactMe</a>
+      </div>
+      <button
+        class="text-white bg-black w-36 h-14 flex justify-evenly items-center rounded"
+      >
+        <p>Resume</p>
+        <img src="icon/icon.png" alt="download" />
+      </button>
     </header>
     <section>
       <div>
         <!--Container-->
         <div>
-          <p>
-            Hello I'am Ngirfanul Mangali. Frontend Developer Based In Indonesia.
+          <p class=" font-sora text-5xl ">
+            Hello I'am <span class="font-extrabold leading-56">Ngirfanul Mangali.</span> <br> <span class="font-extrabold leading-56">Frontend</span> Developer <br> Based In <span class="font-extrabold leading-56">Indonesia.</span>
           </p>
-          <p>
+          <p class="font-normal text-base text-zinc-500">
             I'm Ngirfanul Mangali Lorem Ipsum is simply dummy text of the
             printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown
             printer took a galley of type and scrambled it to specimen book.
           </p>
         </div>
-        <div>
-          <img src="icon/Banner.png" alt="Banner" />
-        </div>
-      </div>
-      <div>
+        <img src="icon/Banner.png" alt="Banner" />
+      <div class="flex">
         <!--the group link social button-->
-        <div>
-          <a href="http://"><img src="icon/facebook.png" alt="facebook" /></a>
+        <div class="p-9 bg-black rounded mr-8">
+          <a href="http://"><img src="icon/Social icon white.png" alt="facebook"/></a>
         </div>
-        <div>
+        <div class="p-9 border-4 border-black border-solid rounded mr-8">
           <a href="http://"
             ><img src="icon/Social icon reddit.png" alt="reddit"
           /></a>
         </div>
-        <div>
+        <div class="p-9 border-4 border-black border-solid rounded mr-8">
           <a href="http://"><img src="icon/twitter.png" alt="twitter" /></a>
         </div>
-        <div>
+        <div class="p-9 border-4 border-black border-solid rounded">
           <a href="http://"
             ><img src="icon/Social icon discord.png" alt=""
           /></a>
